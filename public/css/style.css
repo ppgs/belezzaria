@@ -1,0 +1,83 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #5e3ea1; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffbc0c;
+  transition: all 0.2s ease 0s; }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffbc0c;
+    width: 10px; }
+
+html, body {
+  height: 100%; }
+
+.input-field > label, span {
+  color: #ffffff; }
+  .input-field > label:before, span:before {
+    border: 2px solid #ffffff; }
+
+header {
+  background-color: #5e3ea1;
+  height: 100%; }
+  header .header {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center; }
+    header .header h4, header .header h5 {
+      color: #ffffff;
+      padding-left: 10rem;
+      padding-right: 10rem; }
+    header .header .logo {
+      width: 100%;
+      max-width: 52rem;
+      padding: 2rem; }
+  header .icon-scroll,
+  header .icon-scroll:before {
+    position: absolute;
+    left: 50%; }
+  header .icon-scroll {
+    width: 40px;
+    height: 70px;
+    margin-left: -20px;
+    bottom: 3%;
+    box-shadow: inset 0 0 0 1px #fff;
+    border-radius: 25px; }
+    header .icon-scroll:before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      top: 8px;
+      border-radius: 4px;
+      margin-left: -4px;
+      animation: scroll infinite 1.5s; }
+@keyframes scroll {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    transform: translateY(46px); } }
+section {
+  background-color: #5e3ea1;
+  color: #ffffff;
+  text-align: center; }
+  section .briefing {
+    width: 100%;
+    max-width: 52rem;
+    padding: 2rem; }
+  section .section .border {
+    padding: 2rem 5rem;
+    border-radius: 10rem;
+    border: 1px solid #6e64c3;
+    background-color: #6e64c3; }
+    section .section .border .info {
+      margin-bottom: 1rem; }
+
+/*# sourceMappingURL=style.css.map */
