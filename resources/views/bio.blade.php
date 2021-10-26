@@ -36,7 +36,7 @@
 
 <div class="container">
     <div class="col-xs-12">
-        <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
+        <div class="text-center" style="padding-top: 60px; padding-bottom: 30px;">
             {{--            <img class="backdrop linktree" src="images/logo.png">--}}
             <img class="logo" src="images/logo.png">
         </div>
