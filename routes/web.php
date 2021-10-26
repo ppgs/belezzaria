@@ -25,7 +25,7 @@ Route::get('/bio', function () {
 });
 
 
-Route::domain('{bio}.belezzaria.com')->group(function () {
+Route::domain('{bio}.belezzaria.com.br')->group(function () {
     Route::get('/bio', function ($bio) {
         return view('bio');
     });
