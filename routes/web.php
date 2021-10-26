@@ -12,10 +12,14 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-    Route::get('optimize', function(){
-        return \Illuminate\Support\Facades\Artisan::call('optimize:clear');
-    });
+Route::get('optimize', function () {
+    return \Illuminate\Support\Facades\Artisan::call('optimize:clear');
+});
 
 Route::get('/', function () {
     return view('index');
+});
+
+Route::get('/bio', function () {
+    return view('bio');
 });

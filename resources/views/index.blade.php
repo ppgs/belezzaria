@@ -30,7 +30,6 @@
         gtag('config', 'G-G7WWPX012X');
     </script>
 
-
 </head>
 <body>
 <header>
