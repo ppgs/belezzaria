@@ -75,12 +75,16 @@
                    style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Website
                 </a>
             </div>
-            <a target="_blank" href="https://www.agenciacodeweb.com.br">
-                <img src="images/codeweb.png" alt="CodeWeb" class="codeweb">
-            </a>
+
         </div>
     </div>
 </div>
+
+<a target="_blank" href="https://www.agenciacodeweb.com.br">
+    <img src="images/codeweb.png" alt="CodeWeb" class="codeweb">
+</a>
+
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

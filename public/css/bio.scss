@@ -100,6 +100,10 @@ h6 {
 }
 
 .codeweb{
-    padding-top: 4rem;
-    width: 20vh;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: 2rem;
+    width: 10rem;
 }
