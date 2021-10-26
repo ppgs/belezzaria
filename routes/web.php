@@ -23,3 +23,10 @@ Route::get('/', function () {
 Route::get('/bio', function () {
     return view('bio');
 });
+
+
+Route::domain('{bio}.belezzaria.com')->group(function () {
+    Route::get('/bio', function ($bio) {
+        return view('bio');
+    });
+});
