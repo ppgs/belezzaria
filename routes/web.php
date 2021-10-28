@@ -18,8 +18,10 @@ Route::get('optimize', function () {
 
 Route::get('/', function () {
     return view('index');
-});
+})->domain('belezzaria.com.br');
 
-Route::get('/bio', function () {
-    return view('bio');
+Route::domain('bio.belezzaria.com.br')->group(function () {
+    Route::get('/', function () {
+        return view('bio');
+    });
 });
