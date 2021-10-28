@@ -16,9 +16,11 @@ Route::get('optimize', function () {
     return \Illuminate\Support\Facades\Artisan::call('optimize:clear');
 });
 
-Route::get('/', function () {
-    return view('index');
-})->domain('belezzaria.com.br');
+Route::domain('belezzaria.com.br')->group(function () {
+    Route::get('/', function () {
+        return view('index');
+    });
+});
 
 Route::domain('bio.belezzaria.com.br')->group(function () {
     Route::get('/', function () {
