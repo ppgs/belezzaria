@@ -27,3 +27,9 @@ Route::domain('bio.belezzaria.com.br')->group(function () {
         return view('bio');
     });
 });
+
+Route::domain('vagas.belezzaria.com.br')->group(function () {
+    Route::get('/', function () {
+        return view('vagas');
+    });
+});
