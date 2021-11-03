@@ -13,7 +13,7 @@
 
     <title>Belezzaria Nails and Hair</title>
 
-    <link href="materialize-css/dist/css/materialize.min.css" rel="stylesheet">
+    <link href="materialize-css/sass/materialize.css" rel="stylesheet">
     <link href="css/construcao.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -43,14 +43,15 @@
            target="_blank">INSTAGRAM</a>
         <a class="waves-effect waves-light btn" href="https://api.whatsapp.com/send?1=pt_BR&phone=5564992512597"
            target="_blank">WHATSAPP</a>
+{{--        <a class="waves-effect waves-light btn" href="https://vagas.belezzaria.com.br"--}}
+{{--           target="_blank">RECRUTAMENTO</a>--}}
 
         <div class="logo">
             <!--<img src="Public/imagens/studio.png" alt="">-->
             <a target="_blank" href="http://www.agenciacodeweb.com.br"><img src="images/codeweb.png" alt=""
                                                                             class="codeweb"></a>
-            <a target="_blank" href="http://www.agenciacodeweb.com.br"><img src="images/logo.png" alt=""
+            <a target="_blank" href="http://www.agenciacodeweb.com.br"><img src="images/logo-invertida.png" alt=""
                                                                             class="codeweb"></a>
-
         </div>
 
     </div>

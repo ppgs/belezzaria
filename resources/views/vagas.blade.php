@@ -13,8 +13,8 @@
 
     <title>Belezzaria Nails and Hair</title>
 
-    <link href="materialize-css/dist/css/materialize.min.css" rel="stylesheet">
-    <link href="css/construcao.css" rel="stylesheet">
+    <link href="materialize-css/sass/materialize.css" rel="stylesheet">
+    <link href="css/vagas.css" rel="stylesheet">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G7WWPX012X"></script>
@@ -34,30 +34,41 @@
 <body>
 <header>
     <div class="container">
-        <img src="images/construcoes.png" alt="">
-
-        <p>Olá!!</p>
-        <p>Os desenvolvedores da CodeWeb estão atualizando a page da Belezzaria, se você precisar de algum agendamento
-            acesse o <a href="https://bio.belezzaria.com.br" target="_blank">link</a>.</p>
-        <a class="waves-effect waves-light btn" href="https://www.instagram.com/belezzarianh"
-           target="_blank">INSTAGRAM</a>
-        <a class="waves-effect waves-light btn" href="https://api.whatsapp.com/send?1=pt_BR&phone=5564992512597"
-           target="_blank">WHATSAPP</a>
-
         <div class="logo">
-            <!--<img src="Public/imagens/studio.png" alt="">-->
-            <a target="_blank" href="http://www.agenciacodeweb.com.br"><img src="images/codeweb.png" alt=""
-                                                                            class="codeweb"></a>
-            <a target="_blank" href="http://www.agenciacodeweb.com.br"><img src="images/logo.png" alt=""
-                                                                            class="codeweb"></a>
-
+            <a target="_blank" href="http://www.belezzaria.com.br"><img src="images/logo.png" alt=""
+                                                                        class="Belezzaria"></a>
         </div>
+
+        <form class="center" action="#" method="post" enctype="multipart/form-data">
+            <h3>Insira seu currículo abaixo!</h3>
+            <div class="row">
+                <div class="input-field col s6 m6">
+                    <input id="icon_prefix" type="text" class="validate">
+                    <label for="icon_prefix">Nome Completo</label>
+                </div>
+                <div class="input-field col s6 m6">
+                    <input id="icon_telephone" type="tel" class="validate">
+                    <label for="icon_telephone">telefone</label>
+                </div>
+            </div>
+            <div class="file-field input-field">
+                <div class="btn">
+                    <span>File</span>
+                    <input type="file">
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" name="file" type="text">
+                </div>
+            </div>
+            <button class="btn waves-effect waves-light right" type="submit" name="action">Enviar</button>
+        </form>
 
     </div>
 
 
 </header>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script src="materialize-css/js/bin/materialize.min.js"></script>
 <script src="js/jquery.nicescroll.min.js"></script>
 
 <script>

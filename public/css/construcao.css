@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  background-color: #C51162;
+  background-color: #ff4081;
 }
 
 header {
@@ -35,6 +35,14 @@ header .container img {
   width: 100%;
   max-width: 32rem;
   padding: 0 2rem;
+}
+header .container .logo img {
+  width: 100%;
+  max-width: 15rem;
+  margin-top: 1rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
 }
 
 /*# sourceMappingURL=construcao.css.map */

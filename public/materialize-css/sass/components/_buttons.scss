@@ -68,6 +68,7 @@
   background-color: $button-raised-background;
   text-align: center;
   letter-spacing: .5px;
+  border-radius: 2rem;
   @extend .z-depth-1;
   transition: background-color .2s ease-out;
   cursor: pointer;
