@@ -10,6 +10,7 @@
     <meta name="keywords"
           content="Salão de Beleza, Beleza, belezzaria, salão, nails, hair, unha, cabelo, Rio Verde, Goiás">
     <meta name="copyright" content="Salão de Beleza - 2021">
+    <meta name="facebook-domain-verification" content="sr2h09nz38f1v1vq4m670ijjqd8bwv" />
 
     <title>Belezzaria Nails and Hair</title>
 
