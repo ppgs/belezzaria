@@ -48,12 +48,12 @@
 <div class="container">
     <div class="col-xs-12">
         <div class="text-center">
-{{--                        <div style="padding-bottom: 30px;">--}}
-{{--                            <a target="_blank" href="https://vagas.belezzaria.com.br" type="button"--}}
-{{--                                    class="btn btn-outline-light shake"--}}
-{{--                                    style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Recrutamento--}}
-{{--                            </a>--}}
-{{--                        </div>--}}
+                        <div style="padding-bottom: 30px;">
+                            <a target="_blank" href="https://api.whatsapp.com/send?phone=5564992512597" type="button"
+                                    class="btn btn-outline-light shake"
+                                    style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Agendamento
+                            </a>
+                        </div>
             <div style="padding-bottom: 30px;">
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=5564992512597" type="button"
                    class="btn btn-outline-light"
